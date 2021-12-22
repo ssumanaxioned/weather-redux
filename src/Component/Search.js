@@ -46,6 +46,7 @@ class Search extends Component {
   render() {
     return (
       <form onSubmit={this.handleWeatherApi}>
+        <label>Enter City Name: </label>
         <input type="text" onChange={this.handleOnchange} />
         <button type="submit">Submit</button>
       </form>
