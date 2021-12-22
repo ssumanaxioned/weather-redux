@@ -5,7 +5,7 @@ import App from './App';
 import store from './store'
 import { Provider } from 'react-redux';
 
-store.subscribe(()=> console.log(store.getState()))
+// store.subscribe(()=> console.log(store.getState()))
 
 ReactDOM.render(
   <React.StrictMode>

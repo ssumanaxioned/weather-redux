@@ -15,7 +15,6 @@ class Search extends Component {
   componentDidMount() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(this.currentLoc);
-      console.log(this.props);
     }
     else {
       alert('geolocation not available');
@@ -43,7 +42,6 @@ class Search extends Component {
       console.log(url);
     }
   }
-
 
   render() {
     return (
